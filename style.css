@@ -1,0 +1,256 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url(https://fonts.google.com/specimen/Raleway);
+    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+    
+ul li {
+    list-style: none;
+}
+
+/**********
+header
+**********/
+    
+header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 3em 1em;
+}
+    
+.header_container{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+}
+
+.logo {
+    width: 10%;
+}
+    
+.header_container ul{
+    display: flex;
+    float: right;
+    gap: 3rem;
+    color: hsl(238, 22%, 44%);
+}
+    
+/**************
+first_container
+**************/
+
+.first_container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em; 
+    margin-right: 3em;
+}
+
+.contentbox_left{
+    max-width: 45%;
+}
+    
+.boldtext {
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.smalltext {
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.email1 {
+    width: 50%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 75%);
+}
+
+.button1 {
+    padding: 0.6em;
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border: none;
+}
+
+
+.illustration_1 {
+    width: 500px;
+}
+    
+/**************
+second_container
+**************/
+
+.second_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em; 
+    margin-right: 3em;
+}
+    
+.see {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 2px solid hsl(170, 45%, 43%); 
+}
+
+blockquote {
+    background-color: hsl(240, 75%, 98%);
+    max-width: 400px;
+    padding: 2.5em;
+    box-shadow: 1px 1px 3px hsl(243, 87%, 12%);
+    margin-top: 3em;
+}
+
+blockquote img {
+    width: 20px;
+    border-radius: 100%;
+}
+
+blockquote p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+.profile {
+    margin-top: 1.5em;
+    display: flex;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+    
+.detail{
+    font-size: 10px;
+    margin-left: 0.5em;
+}
+
+.image {
+    width: 700px;
+}
+
+/**************
+First footer
+**************/
+
+.first_footer {
+    max-width: 100%;
+    max-height: 20%;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    background-color: hsl(238, 22%, 44%);
+    justify-content: space-between;
+    color: hsl(240, 75%, 98%);
+}
+    
+.left_side h1 {
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.left_side p {
+    margin-left: 14px;
+}
+    
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+    
+.email2 {
+    padding: 1em;
+    width: 350px; 
+    margin-bottom: 0.5em;      
+}
+    
+.button2{
+    padding: 0.6em;
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border: none;
+}
+   
+/**************
+second footer
+**************/
+
+.second_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+}
+
+.icon {
+    width: 10px;
+}
+
+.column1 {
+    margin: 4em 0 4em 3em;
+}
+
+.column2 {
+    margin-top: 8em;
+    margin-left: 0;
+}
+
+.column2 li{
+    margin-bottom: 15px;
+}
+
+.column3 {
+    margin-top: 8em;
+    margin-left: 0;
+}
+
+.column3 li{
+    margin-bottom: 15px;
+}
+
+.column4 {
+    display: flex;
+    margin-top: 8em;
+    margin-left: 2em;
+}
+
+.social {
+    width: 20px;
+    color: white;
+    margin-right: 1em;
+}
+
+.socialmedia {
+    width: 30px;
+    margin-right: 3em;
+    margin-top: 0.5em;
+}
