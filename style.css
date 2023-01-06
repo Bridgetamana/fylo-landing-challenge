@@ -42,11 +42,11 @@ header {
     width: 10%;
 }
     
-.header_container ul{
+.nav ul{
     display: flex;
     float: right;
     gap: 3rem;
-    color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 75%);
 }
     
 /**************
@@ -176,6 +176,10 @@ First footer
     margin-bottom: 12px;
 }
 
+.right_side {
+    margin-right: 12px;
+}
+
 .left_side p {
     margin-left: 14px;
 }
@@ -219,6 +223,12 @@ second footer
     margin: 4em 0 4em 3em;
 }
 
+.social {
+    width: 20px;
+    color: white;
+    margin-right: 1em;
+}
+
 .column2 {
     margin-top: 8em;
     margin-left: 0;
@@ -240,17 +250,10 @@ second footer
 .column4 {
     display: flex;
     margin-top: 8em;
-    margin-left: 2em;
-}
-
-.social {
-    width: 20px;
-    color: white;
-    margin-right: 1em;
+    margin-right: 8em;
 }
 
 .socialmedia {
-    width: 30px;
-    margin-right: 3em;
-    margin-top: 0.5em;
+    width: 25px;
+    margin-right: 10px;
 }
