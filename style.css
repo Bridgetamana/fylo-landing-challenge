@@ -46,6 +46,9 @@ header {
 .nav ul{
     display: flex;
     gap: 3rem;
+    
+}
+li a {
     color: hsl(0, 0%, 75%);
 }
     
